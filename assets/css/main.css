@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #346A94;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.vr {
+    color: #FF0000;
+    width: 3px;
+    opacity: 100;
+    margin: 12px;
+
+}
+
+.navbar-brand {
+    margin-right: 5px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 100;
+}
+
+@media (max-width: 990px) {
+    .hidden-for-mobile {
+        display: none;
+    }
+    .margin-for-mobile{
+        margin-left: -20px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+.nav-link {
+    font-family: "Nunito";
+    font-size: 30px;
+    color: #346A94;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.text-enter{
+    font-family: "Nunito";
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #FF0000;
+    width: 250px;
+    border-color: #FF0000;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.man_icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #346A94;
+    border-color: #346A94;
+}
+
+.services{
+    color: #FFF;
+    font-family: Nunito;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.image-padding{
+    margin-top: 40px;
+}
+
+.info{
+    background-color: #FFF;
+}
+
+.info-col-main{
+    padding-top: 20px;
+}
+
+.info-col-sec{
+    margin-top: 20px;
+}
+
+.info-col{
+    color: black;
+    font-family: Nunito;
+}
+
+h3{
+    font-weight: bold;
+}

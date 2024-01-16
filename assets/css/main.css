@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
 
+@media only screen and (max-width: 768px) {
+    h4 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 990px) {
+    .hidden-for-mobile {
+        display: none;
+    }
+
+    .margin-for-mobile {
+        margin-left: -20px;
+        margin-bottom: 15px;
+    }
+}
+
 body {
     background-color: #346A94;
 }
 
-img { 
-    width:auto; 
-    max-width:100%; 
+img {
+    width: auto;
+    max-width: 100%;
 }
-.img { 
-    width:auto; 
-    max-width:100%; 
+
+.img {
+    width: auto;
+    max-width: 100%;
 }
+
 .navbar {
     background-color: white;
 }
@@ -36,17 +55,6 @@ hr {
     opacity: 100;
 }
 
-
-@media (max-width: 990px) {
-    .hidden-for-mobile {
-        display: none;
-    }
-    .margin-for-mobile{
-        margin-left: -20px;
-        margin-bottom: 15px;
-    }
-}
-
 .nav-link {
     font-family: "Nunito";
     font-size: 30px;
@@ -62,7 +70,7 @@ hr {
     margin-left: 20px;
 }
 
-.text-enter{
+.text-enter {
     font-family: "Nunito";
     color: white;
     text-decoration: none;
@@ -89,7 +97,7 @@ hr {
     border-color: #346A94;
 }
 
-.services{
+.services {
     color: #FFF;
     font-family: Nunito;
     margin-top: 25px;
@@ -97,45 +105,40 @@ hr {
     margin-left: 20px;
 }
 
-.image-padding{
+.image-padding {
     margin-top: 40px;
 }
 
-.info{
+.info {
     background-color: #FFF;
     padding-bottom: 20px;
 }
 
-.info-col-main{
+.info-col-main {
     padding-top: 20px;
 }
 
-.info-col-sec{
+.info-col-sec {
     margin-top: 20px;
 }
 
-.info-col{
+.info-col {
     color: black;
     font-family: Nunito;
-    overflow:hidden;
 }
 
-h3{
+h3 {
     font-weight: bold;
 }
 
-h4{
-    font-size: 1.4em;
-}
-
-.scroll{
+.scroll {
     padding-top: 20px;
     font-family: Nunito;
     background-color: #5580a1;
     padding-bottom: 20px;
 }
 
-.ScrollText{
+.ScrollText {
     margin-top: 10px;
     font-family: Nunito;
     color: #FFF;
